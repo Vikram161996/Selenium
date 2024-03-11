@@ -13,7 +13,7 @@ public class SelectDropdown {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		WebDriver driver = new ChromeDriver();
+		//WebDriver driver = new ChromeDriver();
 		driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
 		WebElement selectdrop = driver.findElement(By.name("my-select"));
