@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-13T07:13:19 GMT" name="SuiteExample" finished-at="2024-03-13T07:13:27 GMT" duration-ms="8274">
+    <groups>
+    </groups>
+    <test started-at="2024-03-13T07:13:19 GMT" name="Test" finished-at="2024-03-13T07:13:27 GMT" duration-ms="8274">
+      <class name="SeleniumPractice.Testngpractice">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:SeleniumPractice.Testngpractice@25641d39]" started-at="2024-03-13T07:13:19 GMT" name="initialize" finished-at="2024-03-13T07:13:21 GMT" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testcase1()[pri:0, instance:SeleniumPractice.Testngpractice@25641d39]" started-at="2024-03-13T07:13:21 GMT" name="testcase1" finished-at="2024-03-13T07:13:21 GMT" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:0, instance:SeleniumPractice.Testngpractice@25641d39]" started-at="2024-03-13T07:13:21 GMT" name="testcase2" finished-at="2024-03-13T07:13:27 GMT" duration-ms="5196" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at SeleniumPractice.Testngpractice.testcase2(Testngpractice.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:SeleniumPractice.Testngpractice@25641d39]" started-at="2024-03-13T07:13:27 GMT" name="close" finished-at="2024-03-13T07:13:27 GMT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SeleniumPractice.Testngpractice -->
+    </test> <!-- Test -->
+  </suite> <!-- SuiteExample -->
+</testng-results>
