@@ -5,9 +5,9 @@
     <classes>
       <class name="SeleniumPractice.Testngpractice">
         <methods>
-          <include name="close"/>
-          <include name="initialize"/>
           <include name="testcase2"/>
+          <include name="initialize"/>
+          <include name="close"/>
         </methods>
       </class> <!-- SeleniumPractice.Testngpractice -->
     </classes>
